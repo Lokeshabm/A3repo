@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apply - Kishkinda University</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Apply Now</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="apply.html">Apply</a>
+      <a href="fees.html">Fee Structure</a>
+    </nav>
+  </header>
+
+  <main>
+    <form action="submit.php" method="POST">
+      <label>Full Name: <input type="text" name="full_name" required></label>
+      <label>Email: <input type="email" name="email" required></label>
+      <label>Phone: <input type="tel" name="phone" required></label>
+      <label>Date of Birth: <input type="date" name="dob" required></label>
+      <label>Course:
+        <select name="course" required>
+          <option>CSE</option>
+          <option>EEE</option>
+          <option>ECE</option>
+          <option>AIML</option>
+        </select>
+      </label>
+      <label>Address: <textarea name="address" required></textarea></label>
+      <button type="submit">Submit Application</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Kishkinda University</p>
+  </footer>
+</body>
+</html>
